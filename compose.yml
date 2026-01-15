@@ -1,0 +1,6 @@
+services:
+  rag-gpu-service:
+    build: .
+    container_name: rag-gpu-service
+    ports:
+      - "8000:8000"
